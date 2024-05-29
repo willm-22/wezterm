@@ -23,7 +23,7 @@ config.font_size = 10
 config.default_cursor_style = 'BlinkingBar'
 config.cursor_blink_rate = 0
 
-config.default_prog = { 'powershell' }
+config.default_prog = { 'Fedora' }
 
 config.use_fancy_tab_bar = false
 
@@ -186,4 +186,10 @@ config.colors = {
 }
 config.integrated_title_buttons = {'Hide', 'Close'}
 
+config.launch_menu = {
+    {
+    label = 'Powershell',
+    args = { 'powershell' },
+},
+}
 return config
